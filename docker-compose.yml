@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  babel-plugin-module-mixin:
+    image: node:12.7.0-buster
+    volumes:
+       - v-sync-babel-plugin-module-mixin:/app
+    working_dir: /app
+    ports:
+      - "8080:8080"
+    tty: true
+    command: /bin/bash
+
+volumes:
+  v-sync-babel-plugin-module-mixin:
+    external: true
