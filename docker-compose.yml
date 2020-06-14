@@ -4,10 +4,11 @@ services:
   babel-plugin-module-mixin:
     image: node:12.7.0-buster
     volumes:
-       - v-sync-babel-plugin-module-mixin:/app
+      - v-sync-babel-plugin-module-mixin:/app
+      - ../babel:/babel
     working_dir: /app
     ports:
-      - "8080:8080"
+      - 9230:9230
     tty: true
     command: /bin/bash
 

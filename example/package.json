@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "file:../../babel/packages/babel-cli",
+    "@babel/core": "file:../../babel/packages/babel-core",
+    "@babel/parser": "file:../../babel/packages/babel-parser",
+    "@babel/preset-env": "file:../../babel/packages/babel-preset-env",
+    "babel-plugin-module-mixin": "file:../"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0"
+  },
+  "resolutions": {
+    "@babel/cli": "file:../../babel/packages/babel-cli",
+    "@babel/core": "file:../../babel/packages/babel-core",
+    "@babel/parser": "file:../../babel/packages/babel-parser",
+    "@babel/preset-env": "file:../../babel/packages/babel-preset-env",
+    "babel-plugin-module-mixin": "file:../"
+  }
+}

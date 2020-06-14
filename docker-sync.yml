@@ -4,5 +4,5 @@ options:
 syncs:
   v-sync-babel-plugin-module-mixin:
     src: '.'
-    sync_excludes: ['.git']
+    sync_excludes: ['.git', 'node_modules']
     notify_terminal: false

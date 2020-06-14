@@ -24,10 +24,7 @@ m.serialize();
 ```
 
 # Todo
-- lexing
-- parsing
-- implement plugin
-  - need to do some research on how can prototype be used for this
+- generate
 - TBD
   - extend module
   - option to bind this?
