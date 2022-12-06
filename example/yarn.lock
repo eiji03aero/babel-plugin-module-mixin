@@ -880,10 +880,10 @@ babel-plugin-dynamic-import-node@^2.3.3:
 "babel-plugin-module-mixin@file:..", "babel-plugin-module-mixin@file:../":
   version "1.0.0"
   dependencies:
-    "@babel/core" "file:../../usr/local/share/.cache/yarn/v4/npm-babel-plugin-module-mixin-1.0.0-748d9405-9038-42b2-829c-fbf0a04ceb55-1592031890607/node_modules/babel/packages/babel-core"
-    "@babel/helper-plugin-utils" "file:../../usr/local/share/.cache/yarn/v4/npm-babel-plugin-module-mixin-1.0.0-748d9405-9038-42b2-829c-fbf0a04ceb55-1592031890607/node_modules/babel/packages/babel-helper-plugin-utils"
-    "@babel/parser" "file:../../usr/local/share/.cache/yarn/v4/npm-babel-plugin-module-mixin-1.0.0-748d9405-9038-42b2-829c-fbf0a04ceb55-1592031890607/node_modules/babel/packages/babel-parser"
-    "@babel/types" "file:../../usr/local/share/.cache/yarn/v4/npm-babel-plugin-module-mixin-1.0.0-748d9405-9038-42b2-829c-fbf0a04ceb55-1592031890607/node_modules/babel/packages/babel-types"
+    "@babel/core" "file:../../babel/packages/babel-core"
+    "@babel/helper-plugin-utils" "file:../../babel/packages/babel-helper-plugin-utils"
+    "@babel/parser" "file:../../babel/packages/babel-parser"
+    "@babel/types" "file:../../babel/packages/babel-types"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -1138,9 +1138,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 define-properties@^1.1.2:
   version "1.1.3"
